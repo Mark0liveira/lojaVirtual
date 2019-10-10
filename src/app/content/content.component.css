@@ -1,0 +1,41 @@
+#imagemProduto{
+    max-width: 200px;
+    min-height: 205px;
+}
+#imagemProduto:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+.cardProd{
+    min-height: 300px;
+    border: none !important;
+}
+p.card-text.mt-2 {
+    min-height: 65px;
+}
+.btn-comprar{
+    background: #00cc99;;
+    height: 40px;
+    width: 120px;
+    border-radius: 30px;
+    color: white;
+}
+.btn-comprar:hover{
+    background: #008765;
+}
+@media(max-width:1199px){
+    .card-text{
+        min-height: 112px !important;
+    }
+}
+@media(max-width:575px){
+    .card-text{
+        min-height: 50px !important;
+    }
+}
+.star{
+    width: 20px;
+}
+body{
+    font-family: 'Open Sans';
+}

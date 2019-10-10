@@ -1,0 +1,16 @@
+.navMenu{
+    background: #404040;
+}
+.linkLogo{
+    color: #00cc99;
+}
+.linkLogo:hover{
+    color: #008765;
+}
+#login{
+    color: white;
+    cursor: pointer;
+}
+#login:hover{
+    color: rgb(225, 225, 225);
+}
